@@ -52,7 +52,7 @@ export default class AddLinks extends React.Component {
           <form onSubmit={this.onSubmit.bind(this)} className="boxed-view__form">
             <input
               type="text"
-              placeholder="URL"
+              placeholder="URL (e.g http://facebook.com)"
               ref="url"
               value={this.state.url}
               onChange={this.onChange.bind(this)}/>
